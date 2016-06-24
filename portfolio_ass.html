@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset= "utf-8">
+	<title>Portfolio</title>
+	<meta name= "" content= "">
+	<link rel= "stylesheet" href= "portfolio.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+		<script>
+		$(document).ready(function(){
+			$("#image") .click (function(){
+				$("#self_01.png") .toggle ("explode",{pieces: 16}, 2000);
+			});
+		});
+	</script>
+</head>
+<body>
+<div id= "container">
+	<div id= "tops">
+	<header>
+	<img id= "image" src= "self_01.png" alt= "Picture of Jeff">
+	<div id= "head">
+	</div>
+	</header>
+		<h1> -Jeff Morris- </h1>
+		<p> Artist- Web Developer </p>
+	</div>
+			<div id= "links">
+				<ul>
+					<li><a href= "https://github.com/Jekrimo">I'm on GitHUB!</a></li>
+					<li><a href= "https://www.linkedin.com/in/jeffrey-morris-2417a177?trk=hp-identity-photo">I'm on LinkedIN!</a></li>
+					<li><a href= "https://jekrimo.com/resume/">Resume!</a></li>
+				</ul>
+			</div>
+</div>
+</body>
+</html>

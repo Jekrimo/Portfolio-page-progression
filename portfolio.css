@@ -1,0 +1,54 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#container {
+	background-image: url("background01.jpg");
+	background-attachment:  fixed;
+	width: auto;
+	background-repeat: no-repeat;
+	width: 1000px;
+	height: 2000px;
+	padding: 5px;
+}
+
+#container	img{
+		position: relative;
+		width: 150px;
+		height: 150px;
+		margin-left: 410px;
+	}
+
+#container h1 {
+	color: white;
+	position: absolute;
+	font-family: arial;
+	margin-top: 0px;
+	margin-left: 385px;
+}
+#container p {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	font-family: arial;
+	margin-top: 40px;
+	margin-left: 385px;
+}
+
+#links {
+	margin-top: 100px;
+	margin-left: 200px;
+	font-family: arial;
+	color: white;
+	display: inline-block;
+}
+	#links li{
+		display: inline-block;
+		margin-left: 20px;
+		font-size: 30px;
+	}
+	#links a{
+		margin-bottom: 0px;
+		color: white;
+	}
